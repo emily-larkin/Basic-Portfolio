@@ -16,13 +16,17 @@ h1 {
     background: #4aaaa5;
     color: #ffffff;
     float: left;
-    height: 50px;
-    padding: 5px 0px 0px 0px;
+    height: 64px;
+    padding: 20px 0px 0px 4px;
     margin-bottom: 10px;
+    position: relative;
+    top: -20px;
 }    
 
 .linkinginfo {
     float: right;
+    position: relative;
+    top: 10px;
 }
 
 h3, a, form {
@@ -62,11 +66,44 @@ p {
 .footer {
     background: #666666;
     height: 70px;
-    border-top: 8px solid #4aaaa5;
     position: relative;
+    border-top: 8px solid #4aaaa5;
     margin: 0px -10px -50px -10px;
+    clear: both;
 } 
 
 form {
     padding-left: 10px;
+}
+
+.gallery1 {
+    position: relative;
+}
+
+.gallery2 {
+    position: relative;
+    left: 250px;
+    top: -192px;
+}
+
+.gallery3 {
+    position: relative;
+    left: 250px;
+    top: -192px;
+}
+
+.gallery4 {
+    position: relative;
+    left: 250px;
+    top: -192px;
+}
+
+.gallery5 {
+    position: relative;
+    left: -750px;
+    top: 20px;
+}
+
+.desc {
+
 }
