@@ -66,22 +66,27 @@ p {
     font-size: 18px
 }    
 
-.footer12 {
+.footer1-2 {
     background: #666666;
     height: 70px;
-    position: fixed;
+    position: relative;
     border-top: 8px solid #4aaaa5;
     margin: 0px -10px -50px -10px;
     clear: both;
+    right: 0px;
+    bottom: -10px;
 } 
 
 .footerPortfolio {
     background: #666666;
     height: 70px;
-    position: fixed;
+    width: 120%;
+    position: relative;
     border-top: 8px solid #4aaaa5;
     margin: 0px -10px -50px -10px;
     clear: both;
+    bottom: -10px;
+    left: -600px;
 } 
 
 form {
