@@ -42,7 +42,7 @@ h2 {
 
 .about-me, .contact-info, .portfolio {
     width: 960px;
-    height: 500px;
+    height: 550px;
     background: #ffffff;
     color: #dddddd;
     margin: 0 auto;
@@ -66,27 +66,18 @@ p {
     font-size: 18px
 }    
 
-.footer1-2 {
+.footer {
     background: #666666;
-    height: 70px;
-    position: relative;
+    height: 50px;
+    position: sticky;
     border-top: 8px solid #4aaaa5;
     margin: 0px -10px -50px -10px;
     clear: both;
     right: 0px;
     bottom: -10px;
-} 
-
-.footerPortfolio {
-    background: #666666;
-    height: 70px;
-    width: 120%;
-    position: relative;
-    border-top: 8px solid #4aaaa5;
-    margin: 0px -10px -50px -10px;
-    clear: both;
-    bottom: -10px;
-    left: -600px;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 55px;
 } 
 
 form {
@@ -94,38 +85,42 @@ form {
 }
 
 .gallery1 {
-    position: relative;
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
 }
 
 .gallery2 {
-    position: relative;
-    left: 250px;
-    top: -192px;
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
 }
 
 .gallery3 {
-    position: relative;
-    left: 250px;
-    top: -192px;
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
 }
 
 .gallery4 {
-    position: relative;
-    left: 250px;
-    top: -192px;
+    float: left;
+    overflow: auto;
+    margin: 20px 20px 20px 20px;
 }
 
 .gallery5 {
-    position: relative;
-    left: -750px;
-    top: 20px;
-}
-
-.desc {
-
+    float: left;
+    overflow: auto;
+    margin: 20px 30px 20px 20px;
 }
 
 .imgMe {
     float: left;
     margin: 8px 12px 0px 0px;
+}
+
+.desc {
+    background: #4aaaa5;
+    text-align: center;
+    padding: 5px;
 }
