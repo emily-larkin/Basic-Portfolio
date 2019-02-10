@@ -1,3 +1,4 @@
+/* header styles */
 .fullheader {
     background: #ffffff;
     width: 100%;
@@ -30,10 +31,17 @@ h1 {
     top: 10px;
 }
 
-h3, a, form {
+/* font for headings only  */
+h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* text color for the linking info in the header */
+h3, a {
     color: darkgray;
 }
 
+/* styling for main sections */
 h2 {
     color: #4aaaa5;
     padding: 10px 0px 20px 5px;
@@ -55,8 +63,9 @@ body {
     background-image: url("../images/white-waves.png");
 }
 
-h1, h2, h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+form {
+    padding-left: 10px;
+    color: black;
 }
 
 p {
@@ -66,24 +75,29 @@ p {
     font-size: 18px
 }    
 
+/* styling for the image on the index page */
+.imgMe {
+    float: left;
+    margin: 8px 12px 0px 0px;
+}
+
+/* styling for the footer on each page */
 .footer {
     background: #666666;
-    height: 50px;
+    height: 47px;
     position: sticky;
     border-top: 8px solid #4aaaa5;
-    margin: 0px -10px -50px -10px;
+    margin: 0px -10px -100px -10px;
     clear: both;
     right: 0px;
     bottom: -10px;
     color: #cccccc;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 42px;
 } 
 
-form {
-    padding-left: 10px;
-}
 
+/* all images on the portfolio page */
 .gallery1 {
     float: left;
     overflow: auto;
@@ -114,13 +128,13 @@ form {
     margin: 20px 30px 20px 20px;
 }
 
-.imgMe {
-    float: left;
-    margin: 8px 12px 0px 0px;
-}
 
+/* image description stying for portfolio page */
 .desc {
     background: #4aaaa5;
     text-align: center;
     padding: 5px;
+    position: relative;
+    top: -42px;
+    color: white;
 }
